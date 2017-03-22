@@ -22,31 +22,31 @@
 		<module>smart-tool</module>
 	</modules>
 	
-	<profiles>
-		<profile>
-			<id>dev</id>
-			<properties>
-				<env>dev</env>
-				<log.level>debug</log.level>
-				<log.url>${catalina.home}/logs</log.url>
-			</properties>
-			<activation>
-				<activeByDefault>true</activeByDefault>
-			</activation>
-		</profile>
-		<profile>
-			<id>pro</id>
-			<properties>
-				<env>pro</env>
-				<log.level>info</log.level>
-				<log.url>${catalina.home}/logs</log.url>
-			</properties>
-		</profile>
-	</profiles>
+	<!--<profiles>-->
+		<!--<profile>-->
+			<!--<id>dev</id>-->
+			<!--<properties>-->
+				<!--<env>dev</env>-->
+				<!--<log.level>debug</log.level>-->
+				<!--<log.url>${catalina.home}/logs</log.url>-->
+			<!--</properties>-->
+			<!--<activation>-->
+				<!--<activeByDefault>true</activeByDefault>-->
+			<!--</activation>-->
+		<!--</profile>-->
+		<!--<profile>-->
+			<!--<id>pro</id>-->
+			<!--<properties>-->
+				<!--<env>pro</env>-->
+				<!--<log.level>info</log.level>-->
+				<!--<log.url>${catalina.home}/logs</log.url>-->
+			<!--</properties>-->
+		<!--</profile>-->
+	<!--</profiles>-->
 	
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<java.version>1.8</java.version>
+		<java.version>1.7</java.version>
 		<server.port>80</server.port>
 		
 		<servlet.version>3.1.0</servlet.version>

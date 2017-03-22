@@ -91,7 +91,8 @@
 		       p.name      AS name,
 		       p.url       AS url,
 		       p.icon      AS icon,
-		       p.isMenu    AS isMenu
+		       p.isMenu    AS isMenu,
+			   p.sort      AS sort
 		FROM   SYS_PERMISSION p
 		<if test="userId != null">
 			   INNER JOIN SYS_RE_ROLE_PERMISSION rp ON p.id = rp.permissionId
